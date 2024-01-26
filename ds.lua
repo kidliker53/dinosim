@@ -201,7 +201,7 @@ bauLk.Parent = game.CoreGui
 Main.Name = "Main"
 Main.Parent = bauLk
 Main.Active = true
-Main.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Main.BackgroundColor3 = Color3.fromRGB(17, 17, 17)
 Main.BorderColor3 = Color3.fromRGB(248, 248, 248)
 Main.BorderSizePixel = 2
 Main.Position = UDim2.new(0.314186931, 0, 0.202702716, 0)
@@ -272,13 +272,14 @@ local function bro()
     local script58 = Instance.new('LocalScript', Main)
 	function zigzag(X)return math.acos(math.cos(X*math.pi))/math.pi end
 	counter=0
+end
 
 coroutine.wrap(bro)()
 
 GUIHead.Name = "GUIHead"
 GUIHead.Parent = Main
 GUIHead.Active = true
-GUIHead.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+GUIHead.BackgroundColor3 = Color3.fromRGB(17, 17, 17)
 GUIHead.BorderColor3 = Color3.fromRGB(248, 248, 248)
 GUIHead.BorderSizePixel = 0.1
 GUIHead.Selectable = true
@@ -510,7 +511,7 @@ text2.BackgroundTransparency = 1
 text2.Position = UDim2.new(-0.050721674, 0, 0.0, 0)
 text2.Size = UDim2.new(0, 349, 0, 65)
 text2.Font = Enum.Font.IndieFlower
-text2.Text = "bauLk winning"
+text2.Text = "HoneyBadger緑"
 text2.TextColor3 = Color3.fromRGB(242, 243, 243)
 text2.TextSize = 55
 text2.TextWrapped = true
@@ -519,7 +520,7 @@ Category.Name = "Category"
 Category.Parent = Main
 Category.Active = true
 Category.BorderSizePixel = 0
-Category.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Category.BackgroundColor3 = Color3.fromRGB(17, 17, 17)
 Category.BorderColor3 = Color3.fromRGB(248, 248, 248)
 Category.Position = UDim2.new(0.035, 0, 0.135983429, 0)
 Category.Size = UDim2.new(0, 168, 0, 400)
@@ -540,7 +541,7 @@ LocalPlayer.TextSize = 15
 LocalPlayer.TextWrapped = true
 LocalPlayer.BackgroundTransparency = 1
 LocalPlayer.TextStrokeTransparency = 0.7
-LocalPlayer.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+LocalPlayer.TextStrokeColor3 = Color3.fromRGB(17, 17, 17)
 LocalPlayer.MouseButton1Down:connect(function()
 FunFrame.Visible = false
 DNAFarmFrame.Visible = false
@@ -580,7 +581,7 @@ Players.TextSize = 15
 Players.TextWrapped = true
 Players.BackgroundTransparency = 1
 Players.TextStrokeTransparency = 0.7
-Players.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+Players.TextStrokeColor3 = Color3.fromRGB(17, 17, 17)
 Players.MouseButton1Down:connect(function()
 FunFrame.Visible = false
 DNAFarmFrame.Visible = false
@@ -604,7 +605,7 @@ World.TextSize = 15
 World.TextWrapped = true
 World.BackgroundTransparency =1 
 World.TextStrokeTransparency = 0.7
-World.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+World.TextStrokeColor3 = Color3.fromRGB(17, 17, 17)
 World.MouseButton1Down:connect(function()
 FunFrame.Visible = true
 DNAFarmFrame.Visible = false
@@ -631,7 +632,7 @@ Maps.TextSize = 15
 Maps.TextWrapped = true
 Maps.BackgroundTransparency =1
 Maps.TextStrokeTransparency = 0.7
-Maps.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+Maps.TextStrokeColor3 = Color3.fromRGB(17, 17, 17)
 Maps.MouseButton1Down:connect(function()
 FunFrame.Visible = false
 DNAFarmFrame.Visible = false
@@ -671,7 +672,7 @@ Elder.TextColor3 = Color3.fromRGB(248, 248, 248)
 Elder.TextSize = 25
 Elder.BackgroundTransparency = 1
 Elder.TextStrokeTransparency = 0.7
-Elder.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+Elder.TextStrokeColor3 = Color3.fromRGB(17, 17, 17)
 Elder.MouseButton1Down:connect(function()
 FunFrame.Visible = false
 DNAFarmFrame.Visible = false
@@ -699,7 +700,7 @@ Trading.TextSize = 25
 Trading.TextWrapped = true
 Trading.BackgroundTransparency = 1
 Trading.TextStrokeTransparency = 0.7
-Trading.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+Trading.TextStrokeColor3 = Color3.fromRGB(17, 17, 17)
 Trading.MouseButton1Down:connect(function()
 FunFrame.Visible = false
 DNAFarmFrame.Visible = true
@@ -725,7 +726,7 @@ button1.TextSize = 15
 button1.TextWrapped = true
 button1.BackgroundTransparency = 1
 button1.TextStrokeTransparency = 0.7
-button1.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+button1.TextStrokeColor3 = Color3.fromRGB(17, 17, 17)
 button1.MouseButton1Down:connect(function()
 game.Players.LocalPlayer.Character.Stats.canSwim.Value = true
 	wait(1)
@@ -745,7 +746,7 @@ button2.TextSize = 15
 button2.TextWrapped = true
 button2.BackgroundTransparency = 1
 button2.TextStrokeTransparency = 0.7
-button2.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+button2.TextStrokeColor3 = Color3.fromRGB(17, 17, 17)
 button2.MouseButton1Down:connect(function()
 game.StarterGui:SetCore("SendNotification", {
 Title = "Press 6 To Toggle On/Off";
@@ -794,7 +795,7 @@ button3.TextSize = 15
 button3.TextWrapped = true
 button3.BackgroundTransparency = 1
 button3.TextStrokeTransparency = 0.7
-button3.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+button3.TextStrokeColor3 = Color3.fromRGB(17, 17, 17)
 button3.MouseButton1Down:connect(function()
 pcall(function()local v = game.Players.LocalPlayer
 v.Character.Head.Size = Vector3.new(0, 0, 0)
@@ -839,7 +840,7 @@ button4.TextSize = 15
 button4.TextWrapped = true
 button4.BackgroundTransparency = 1
 button4.TextStrokeTransparency = 0.7
-button4.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+button4.TextStrokeColor3 = Color3.fromRGB(17, 17, 17)
 button4.MouseButton1Down:connect(function()
     game.Players.LocalPlayer.Character.CharacterScripts.ControlJumpPower:remove()
     game.Players.LocalPlayer.Character.CharacterScripts.ControlWalkSpeed:remove()
@@ -867,7 +868,7 @@ spawndinotext.TextSize = 13
 spawndinotext.TextWrapped = true
 spawndinotext.BackgroundTransparency = 0.95
 spawndinotext.TextStrokeTransparency = 0.3
-spawndinotext.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+spawndinotext.TextStrokeColor3 = Color3.fromRGB(17, 17, 17)
 
 button5.Name = "LocalPlayer"
 button5.Parent = Category
@@ -882,7 +883,7 @@ button5.TextSize = 15
 button5.TextWrapped = true
 button5.BackgroundTransparency = 1
 button5.TextStrokeTransparency = 0.7
-button5.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+button5.TextStrokeColor3 = Color3.fromRGB(17, 17, 17)
 button5.MouseButton1Down:connect(function()
 local b = (spawndinotext.Text)
 local e = (spawndinotext.Text)
@@ -908,7 +909,7 @@ button6.TextSize = 15
 button6.TextWrapped = true
 button6.BackgroundTransparency = 1
 button6.TextStrokeTransparency = 0.7
-button6.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+button6.TextStrokeColor3 = Color3.fromRGB(17, 17, 17)
 button6.MouseButton1Down:connect(function()
     local v1 = game:GetService("Lighting"):GetChildren()
 for i,v in pairs(v1) do 
@@ -3387,7 +3388,7 @@ button7.TextSize = 15
 button7.TextWrapped = true
 button7.BackgroundTransparency = 1
 button7.TextStrokeTransparency = 0.7
-button7.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+button7.TextStrokeColor3 = Color3.fromRGB(17, 17, 17)
 button7.MouseButton1Down:connect(function()
 local HypGUIAdmin = Instance.new("ScreenGui")
 local Main = Instance.new("Frame")
@@ -7345,7 +7346,7 @@ button9.TextSize = 25
 button9.TextWrapped = true
 button9.BackgroundTransparency = 1
 button9.TextStrokeTransparency = 0.7
-button9.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+button9.TextStrokeColor3 = Color3.fromRGB(17, 17, 17)
 button9.MouseButton1Down:connect(function()
 local v1 = game:GetService("Lighting"):GetChildren()
 for i,v in pairs(v1) do 
@@ -7378,7 +7379,7 @@ button10.TextSize = 25
 button10.TextWrapped = true
 button10.BackgroundTransparency = 1
 button10.TextStrokeTransparency = 0.7
-button10.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+button10.TextStrokeColor3 = Color3.fromRGB(17, 17, 17)
 button10.MouseButton1Down:connect(function()
 local v1 = game:GetService("Lighting"):GetChildren()
 for i,v in pairs(v1) do 
@@ -7412,7 +7413,7 @@ button11.TextSize = 25
 button11.TextWrapped = true
 button11.BackgroundTransparency = 1
 button11.TextStrokeTransparency = 0.7
-button11.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+button11.TextStrokeColor3 = Color3.fromRGB(17, 17, 17)
 button11.MouseButton1Down:connect(function()
 local v1 = game:GetService("Lighting"):GetChildren()
 for i,v in pairs(v1) do 
@@ -7448,7 +7449,7 @@ button8.TextSize = 15
 button8.TextWrapped = true
 button8.BackgroundTransparency = 1
 button8.TextStrokeTransparency = 0.7
-button8.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+button8.TextStrokeColor3 = Color3.fromRGB(17, 17, 17)
 button8.MouseButton1Down:connect(function()
 game:GetService("StarterGui"):SetCore("SendNotification",{
 Title = "Dev TP",
@@ -7489,7 +7490,7 @@ GUISText.TextWrapped = true
 LocalPlayerFrame.Name = "LocalPlayerFrame"
 LocalPlayerFrame.Parent = Main
 LocalPlayerFrame.Active = true
-LocalPlayerFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+LocalPlayerFrame.BackgroundColor3 = Color3.fromRGB(17, 17, 17)
 LocalPlayerFrame.BorderColor3 = Color3.fromRGB(248, 248, 248)
 LocalPlayerFrame.Position = UDim2.new(0.279245257, 0, 0.175983444, 0)
 LocalPlayerFrame.Selectable = true
@@ -7528,7 +7529,7 @@ InfiniteJump.TextSize = 15
 InfiniteJump.TextWrapped = true
 InfiniteJump.BackgroundTransparency = 0.95
 InfiniteJump.TextStrokeTransparency = 0.3
-InfiniteJump.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+InfiniteJump.TextStrokeColor3 = Color3.fromRGB(17, 17, 17)
 InfiniteJump.MouseButton1Click:connect(function()
 
 assert(Drawing, 'exploit not supported')
@@ -9765,7 +9766,7 @@ Fly.TextSize = 15
 Fly.TextWrapped = true
 Fly.BackgroundTransparency = 0.95
 Fly.TextStrokeTransparency = 0.3
-Fly.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+Fly.TextStrokeColor3 = Color3.fromRGB(17, 17, 17)
 Fly.MouseButton1Click:connect(function()
 _G.BeamLocator = true
 
@@ -9818,7 +9819,7 @@ FishFly.TextSize = 15
 FishFly.TextWrapped = true
 FishFly.BackgroundTransparency = 0.95
 FishFly.TextStrokeTransparency = 0.3
-FishFly.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+FishFly.TextStrokeColor3 = Color3.fromRGB(17, 17, 17)
 FishFly.MouseButton1Click:connect(function()
 local player = game.Players.LocalPlayer
 local character = player.Character
@@ -9852,7 +9853,7 @@ WSValue.TextSize = 11
 WSValue.TextWrapped = true
 WSValue.BackgroundTransparency = 0.95
 WSValue.TextStrokeTransparency = 0.3
-WSValue.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+WSValue.TextStrokeColor3 = Color3.fromRGB(17, 17, 17)
 
 InfHunger.Name = "InfHunger"
 InfHunger.Parent = LocalPlayerFrame
@@ -9872,7 +9873,7 @@ InfHunger.TextSize = 15
 InfHunger.TextWrapped = true
 InfHunger.BackgroundTransparency = 0.95
 InfHunger.TextStrokeTransparency = 0.3
-InfHunger.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+InfHunger.TextStrokeColor3 = Color3.fromRGB(17, 17, 17)
 InfHunger.MouseButton1Click:connect(function()
 _G.AutoEatDrink = true
 while true do
@@ -9910,7 +9911,7 @@ SetWalkSpeed.TextSize = 15
 SetWalkSpeed.TextWrapped = true
 SetWalkSpeed.BackgroundTransparency = 0.95
 SetWalkSpeed.TextStrokeTransparency = 0.3
-SetWalkSpeed.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+SetWalkSpeed.TextStrokeColor3 = Color3.fromRGB(17, 17, 17)
 SetWalkSpeed.MouseButton1Click:connect(function()
 	while wait() do
 	game.Players.LocalPlayer.Character.Dinosaur.WalkSpeed = (WSValue.Text)
@@ -9936,7 +9937,7 @@ SetJumpPower.TextSize = 15
 SetJumpPower.TextWrapped = true
 SetJumpPower.BackgroundTransparency = 0.95
 SetJumpPower.TextStrokeTransparency = 0.3
-SetJumpPower.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+SetJumpPower.TextStrokeColor3 = Color3.fromRGB(17, 17, 17)
 SetJumpPower.MouseButton1Click:connect(function()
 	game.Players.LocalPlayer.Character.Dinosaur.JumpPower = (JPValue.Text)
 game.Players.LocalPlayer.Character.CharacterScripts.ControlJumpPower:remove()
@@ -9960,7 +9961,7 @@ Omnivore.TextSize = 15
 Omnivore.TextWrapped = true
 Omnivore.BackgroundTransparency = 0.95
 Omnivore.TextStrokeTransparency = 0.3
-Omnivore.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+Omnivore.TextStrokeColor3 = Color3.fromRGB(17, 17, 17)
 Omnivore.MouseButton1Click:connect(function()
 game.Players.LocalPlayer.Character.Stats.bleedingStack:Remove()
 wait(1)
@@ -9988,7 +9989,7 @@ HugeZoom.TextSize = 15
 HugeZoom.TextWrapped = true
 HugeZoom.BackgroundTransparency = 0.95
 HugeZoom.TextStrokeTransparency = 0.3
-HugeZoom.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+HugeZoom.TextStrokeColor3 = Color3.fromRGB(17, 17, 17)
 HugeZoom.MouseButton1Click:connect(function()
 game.Workspace.GameEvents.EatPlant:FireServer(Workspace.GameMap.Ferns.Fern,9060670)
 end)
@@ -10010,7 +10011,7 @@ JPValue.TextSize = 11
 JPValue.TextWrapped = true
 JPValue.BackgroundTransparency = 0.95
 JPValue.TextStrokeTransparency = 0.3
-JPValue.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+JPValue.TextStrokeColor3 = Color3.fromRGB(17, 17, 17)
 
 HungerLoop.Name = "HungerLoop"
 HungerLoop.Parent = LocalPlayerFrame
@@ -10030,7 +10031,7 @@ HungerLoop.TextSize = 15
 HungerLoop.TextWrapped = true
 HungerLoop.BackgroundTransparency = 0.95
 HungerLoop.TextStrokeTransparency = 0.3
-HungerLoop.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+HungerLoop.TextStrokeColor3 = Color3.fromRGB(17, 17, 17)
 HungerLoop.MouseButton1Click:connect(function()
 _G.AutoEatDrink = false
 end)
@@ -10053,7 +10054,7 @@ AddHunger.TextSize = 15
 AddHunger.TextWrapped = true
 AddHunger.BackgroundTransparency = 0.95
 AddHunger.TextStrokeTransparency = 0.3
-AddHunger.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+AddHunger.TextStrokeColor3 = Color3.fromRGB(17, 17, 17)
 AddHunger.MouseButton1Click:connect(function()
 _G.LoopThirst = false
 end)
@@ -10076,7 +10077,7 @@ AddThirst.TextSize = 15
 AddThirst.TextWrapped = true
 AddThirst.BackgroundTransparency = 0.95
 AddThirst.TextStrokeTransparency = 0.3
-AddThirst.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+AddThirst.TextStrokeColor3 = Color3.fromRGB(17, 17, 17)
 AddThirst.MouseButton1Click:connect(function()
 _G.LoopThirst = true
 while true do
@@ -10113,7 +10114,7 @@ ClickTP.TextSize = 15
 ClickTP.TextWrapped = true
 ClickTP.BackgroundTransparency = 0.95
 ClickTP.TextStrokeTransparency = 0.3
-ClickTP.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+ClickTP.TextStrokeColor3 = Color3.fromRGB(17, 17, 17)
 ClickTP.MouseButton1Click:connect(function()
 _G.BeamLocator = false
 
@@ -10169,7 +10170,7 @@ SubtractHunger.TextSize = 15
 SubtractHunger.TextWrapped = true
 SubtractHunger.BackgroundTransparency = 0.95
 SubtractHunger.TextStrokeTransparency = 0.3
-SubtractHunger.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+SubtractHunger.TextStrokeColor3 = Color3.fromRGB(17, 17, 17)
 SubtractHunger.MouseButton1Click:Connect(function()
 	local AdminList = {
 21238127, 
@@ -10512,7 +10513,7 @@ FixMenu.TextSize = 15
 FixMenu.TextWrapped = true
 FixMenu.BackgroundTransparency = 0.95
 FixMenu.TextStrokeTransparency = 0.3
-FixMenu.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+FixMenu.TextStrokeColor3 = Color3.fromRGB(17, 17, 17)
 FixMenu.MouseButton1Click:connect(function()
 	local CountDown = 7
 local Menu = workspace.GameEvents.GoToMenu
@@ -10522,7 +10523,7 @@ end)
 MapsFrame.Name = "MapsFrame"
 MapsFrame.Parent = Main
 MapsFrame.Active = true
-MapsFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+MapsFrame.BackgroundColor3 = Color3.fromRGB(17, 17, 17)
 MapsFrame.BorderColor3 = Color3.fromRGB(248, 248, 248)
 MapsFrame.Transparency = 1
 MapsFrame.Position = UDim2.new(0.279245257, 0, 0.175983444, 0)
@@ -10561,7 +10562,7 @@ MainMap.TextSize = 15
 MainMap.TextWrapped = true
 MainMap.BackgroundTransparency = 0.95
 MainMap.TextStrokeTransparency = 0.3
-MainMap.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+MainMap.TextStrokeColor3 = Color3.fromRGB(17, 17, 17)
 MainMap.MouseButton1Click:connect(function()
  function sandbox(var,func)
 	local env = getfenv(func)
@@ -10963,7 +10964,7 @@ TradingMap.TextSize = 15
 TradingMap.TextWrapped = true
 TradingMap.BackgroundTransparency = 0.95
 TradingMap.TextStrokeTransparency = 0.3
-TradingMap.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+TradingMap.TextStrokeColor3 = Color3.fromRGB(17, 17, 17)
 TradingMap.MouseButton1Click:connect(function()
 local v1 = game:GetService("Lighting"):GetChildren()
 for i,v in pairs(v1) do 
@@ -11188,7 +11189,7 @@ DefaultMap.TextSize = 15
 DefaultMap.TextWrapped = true
 DefaultMap.BackgroundTransparency = 0.95
 DefaultMap.TextStrokeTransparency = 0.3
-DefaultMap.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+DefaultMap.TextStrokeColor3 = Color3.fromRGB(17, 17, 17)
 DefaultMap.MouseButton1Click:connect(function()
 local ts = game:GetService("TeleportService")
 local p = game:GetService("Players").LocalPlayer
@@ -11213,7 +11214,7 @@ GallusIsland.TextSize = 15
 GallusIsland.TextWrapped = true
 GallusIsland.BackgroundTransparency = 0.95
 GallusIsland.TextStrokeTransparency = 0.3
-GallusIsland.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+GallusIsland.TextStrokeColor3 = Color3.fromRGB(17, 17, 17)
 GallusIsland.MouseButton1Click:connect(function()
 function sandbox(var,func)
 	local env = getfenv(func)
@@ -11606,7 +11607,7 @@ ElderDinoFrame.Size = UDim2.new(0, 553, 0, 377)
 ElderDinoFrame.Visible = false
 ElderDinoFrame.Parent = Main
 ElderDinoFrame.Active = true
-ElderDinoFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ElderDinoFrame.BackgroundColor3 = Color3.fromRGB(17, 17, 17)
 ElderDinoFrame.BorderColor3 = Color3.fromRGB(248, 248, 248)
 ElderDinoFrame.Transparency = 1
 ElderDinoFrame.Selectable = true
@@ -11647,7 +11648,7 @@ Eldereddino.TextSize = 15
 Eldereddino.TextWrapped = true
 Eldereddino.BackgroundTransparency = 0.95
 Eldereddino.TextStrokeTransparency = 0.3
-Eldereddino.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+Eldereddino.TextStrokeColor3 = Color3.fromRGB(17, 17, 17)
 
 Elder_2.Name = "Elder"
 Elder_2.Parent = ElderDinoFrame
@@ -11667,7 +11668,7 @@ Elder_2.TextSize = 15
 Elder_2.TextWrapped = true
 Elder_2.BackgroundTransparency = 0.95
 Elder_2.TextStrokeTransparency = 0.3
-Elder_2.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+Elder_2.TextStrokeColor3 = Color3.fromRGB(17, 17, 17)
 Elder_2.MouseButton1Click:connect(function()
 local b = (Targetdino.Text)
 local e = (Eldereddino.Text)
@@ -11701,7 +11702,7 @@ Targetdino.TextSize = 15
 Targetdino.TextWrapped = true
 Targetdino.BackgroundTransparency = 0.95
 Targetdino.TextStrokeTransparency = 0.3
-Targetdino.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+Targetdino.TextStrokeColor3 = Color3.fromRGB(17, 17, 17)
 
 eldertext1.Name = "eldertext1"
 eldertext1.Parent = ElderDinoFrame
@@ -11737,7 +11738,7 @@ Targetdinoplus.TextSize = 15
 Targetdinoplus.TextWrapped = true
 Targetdinoplus.BackgroundTransparency = 0.95
 Targetdinoplus.TextStrokeTransparency = 0.3
-Targetdinoplus.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+Targetdinoplus.TextStrokeColor3 = Color3.fromRGB(17, 17, 17)
 
 Eldereddinoplus.Name = "Eldereddinoplus"
 Eldereddinoplus.Parent = ElderDinoFrame
@@ -11756,7 +11757,7 @@ Eldereddinoplus.TextSize = 15
 Eldereddinoplus.TextWrapped = true
 Eldereddinoplus.BackgroundTransparency = 0.95
 Eldereddinoplus.TextStrokeTransparency = 0.3
-Eldereddinoplus.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+Eldereddinoplus.TextStrokeColor3 = Color3.fromRGB(17, 17, 17)
 
 Elderplus.Name = "Elderplus"
 Elderplus.Parent = ElderDinoFrame
@@ -11776,7 +11777,7 @@ Elderplus.TextSize = 15
 Elderplus.TextWrapped = true
 Elderplus.BackgroundTransparency = 0.95
 Elderplus.TextStrokeTransparency = 0.3
-Elderplus.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+Elderplus.TextStrokeColor3 = Color3.fromRGB(17, 17, 17)
 Elderplus.MouseButton1Click:connect(function()
 _G.AutoInstantElder = true
 if _G.AutoInstantElder then
@@ -11919,7 +11920,7 @@ end)
 ExclusiveFrame.Name = "ExclusiveFrame"
 ExclusiveFrame.Parent = Main
 ExclusiveFrame.Active = true
-ExclusiveFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ExclusiveFrame.BackgroundColor3 = Color3.fromRGB(17, 17, 17)
 ExclusiveFrame.BorderColor3 = Color3.fromRGB(248, 248, 248)
 ExclusiveFrame.Transparency = 1
 ExclusiveFrame.Position = UDim2.new(0.279245287, 0, 0.175983444, 0)
@@ -11959,7 +11960,7 @@ God.TextSize = 15
 God.TextWrapped = true
 God.BackgroundTransparency = 0.95
 God.TextStrokeTransparency = 0.3
-God.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+God.TextStrokeColor3 = Color3.fromRGB(17, 17, 17)
 God.MouseButton1Click:connect(function()
 
 end)
@@ -11982,7 +11983,7 @@ InvisibleFossil.TextSize = 15
 InvisibleFossil.TextWrapped = true
 InvisibleFossil.BackgroundTransparency = 0.95
 InvisibleFossil.TextStrokeTransparency = 0.3
-InvisibleFossil.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+InvisibleFossil.TextStrokeColor3 = Color3.fromRGB(17, 17, 17)
 InvisibleFossil.MouseButton1Click:connect(function()
 	game.Players.LocalPlayer.Character.Hips:Remove()
 end)
@@ -12005,7 +12006,7 @@ NoBleed.TextSize = 15
 NoBleed.TextWrapped = true
 NoBleed.BackgroundTransparency = 0.95
 NoBleed.TextStrokeTransparency = 0.3
-NoBleed.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+NoBleed.TextStrokeColor3 = Color3.fromRGB(17, 17, 17)
 NoBleed.MouseButton1Click:connect(function()
 game.Players.LocalPlayer.Character.Stats.bleedingStack:Remove()
 wait(1)
@@ -12035,7 +12036,7 @@ SafeLog.TextSize = 15
 SafeLog.TextWrapped = true
 SafeLog.BackgroundTransparency = 0.95
 SafeLog.TextStrokeTransparency = 0.3
-SafeLog.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+SafeLog.TextStrokeColor3 = Color3.fromRGB(17, 17, 17)
 SafeLog.MouseButton1Click:Connect(function()
 	local p = game.Players.LocalPlayer
 local h = p.Character:FindFirstChildOfClass'Humanoid';
@@ -12077,7 +12078,7 @@ CanSwim.TextSize = 15
 CanSwim.TextWrapped = true
 CanSwim.BackgroundTransparency = 0.95
 CanSwim.TextStrokeTransparency = 0.3
-CanSwim.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+CanSwim.TextStrokeColor3 = Color3.fromRGB(17, 17, 17)
 CanSwim.MouseButton1Click:connect(function()
 	game.Players.LocalPlayer.Character.Stats.canSwim.Value = true
 end)
@@ -12113,7 +12114,7 @@ InstaMenu.TextSize = 15
 InstaMenu.TextWrapped = true
 InstaMenu.BackgroundTransparency = 0.95
 InstaMenu.TextStrokeTransparency = 0.3
-InstaMenu.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+InstaMenu.TextStrokeColor3 = Color3.fromRGB(17, 17, 17)
 InstaMenu.MouseButton1Click:connect(function()
 game.StarterGui:SetCore("SendNotification", {
 Title = "HEAD KEYBINDS";
@@ -12171,7 +12172,7 @@ BetterSpeed.TextSize = 15
 BetterSpeed.TextWrapped = true
 BetterSpeed.BackgroundTransparency = 0.95
 BetterSpeed.TextStrokeTransparency = 0.3
-BetterSpeed.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+BetterSpeed.TextStrokeColor3 = Color3.fromRGB(17, 17, 17)
 BetterSpeed.MouseButton1Click:connect(function()
 Part0 = Instance.new("Part", game.Workspace)
 Part0.Anchored = true
@@ -12223,7 +12224,7 @@ InfOxygen.TextSize = 15
 InfOxygen.TextWrapped = true
 InfOxygen.BackgroundTransparency = 0.95
 InfOxygen.TextStrokeTransparency = 0.3
-InfOxygen.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+InfOxygen.TextStrokeColor3 = Color3.fromRGB(17, 17, 17)
 InfOxygen.MouseButton1Click:connect(function()
 	game.Players.LocalPlayer.Character.CharacterScripts.UnderWater:Remove()
 end)
@@ -12246,7 +12247,7 @@ GodBaro.TextSize = 15
 GodBaro.TextWrapped = true
 GodBaro.BackgroundTransparency = 0.95
 GodBaro.TextStrokeTransparency = 0.3
-GodBaro.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+GodBaro.TextStrokeColor3 = Color3.fromRGB(17, 17, 17)
 GodBaro.MouseButton1Click:connect(function()
 	_G.EARRAPE = true
 while true do
@@ -12292,7 +12293,7 @@ KillerGhost.TextSize = 15
 KillerGhost.TextWrapped = true
 KillerGhost.BackgroundTransparency = 0.95
 KillerGhost.TextStrokeTransparency = 0.3
-KillerGhost.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+KillerGhost.TextStrokeColor3 = Color3.fromRGB(17, 17, 17)
 KillerGhost.MouseButton1Click:connect(function()
 _G.EARRAPE = false
 end)
@@ -12316,7 +12317,7 @@ AdminsaurHunter.TextSize = 15
 AdminsaurHunter.TextWrapped = true
 AdminsaurHunter.BackgroundTransparency = 0.95
 AdminsaurHunter.TextStrokeTransparency = 0.3
-AdminsaurHunter.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+AdminsaurHunter.TextStrokeColor3 = Color3.fromRGB(17, 17, 17)
 AdminsaurHunter.MouseButton1Click:connect(function()
 	for i = 1, 1 do
 
@@ -12342,7 +12343,7 @@ BuySkinValue.TextSize = 11
 BuySkinValue.TextWrapped = true
 BuySkinValue.BackgroundTransparency = 1
 BuySkinValue.TextStrokeTransparency = 0.3
-BuySkinValue.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+BuySkinValue.TextStrokeColor3 = Color3.fromRGB(17, 17, 17)
 
 
 
@@ -12376,7 +12377,7 @@ SuperPlio.TextSize = 40
 SuperPlio.TextWrapped = true
 SuperPlio.BackgroundTransparency = 1
 SuperPlio.TextStrokeTransparency = 1
-SuperPlio.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+SuperPlio.TextStrokeColor3 = Color3.fromRGB(17, 17, 17)
 SuperPlio.BackgroundColor3 = Color3.fromRGB(242, 243, 243)
 SuperPlio.BorderColor3 = Color3.fromRGB(248, 248, 248)
 SuperPlio.TextColor3 = Color3.fromRGB(248, 248, 248)
@@ -12405,7 +12406,7 @@ Grab.TextSize = 15
 Grab.TextWrapped = true
 Grab.BackgroundTransparency = 0.95
 Grab.TextStrokeTransparency = 0.3
-Grab.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+Grab.TextStrokeColor3 = Color3.fromRGB(17, 17, 17)
 Grab.MouseButton1Click:connect(function()
 _G.loopgraphicsss = false
 local v1 = game:GetService("Lighting"):GetChildren()
@@ -12424,7 +12425,7 @@ s:play()
 local s = Instance.new("Fire", game.Players.LocalPlayer.Character:FindFirstChild("Head"))
 s.Size =  5
 s.Heat = 25
-s.Color = Color3.fromRGB(255, 255, 255)
+s.Color = Color3.fromRGB(17, 17, 17)
 s.SecondaryColor = Color3.fromRGB(255, 201, 201)
 end
 
@@ -12618,8 +12619,8 @@ Lighting.ExposureCompensation = 0.3
 
 Lighting.ShadowSoftness = 0
 
-Lighting.OutdoorAmbient = Color3.fromRGB(255, 255, 255)
-Lighting.Ambient = Color3.fromRGB(255, 255, 255)
+Lighting.OutdoorAmbient = Color3.fromRGB(17, 17, 17)
+Lighting.Ambient = Color3.fromRGB(17, 17, 17)
 Lighting.FogColor = Color3.fromRGB(94, 0, 0)
 Lighting.FogEnd = 999
 Lighting.FogStart = 0
@@ -12645,7 +12646,7 @@ RemoveParts.TextSize = 15
 RemoveParts.TextWrapped = true
 RemoveParts.BackgroundTransparency = 0.95
 RemoveParts.TextStrokeTransparency = 0.3
-RemoveParts.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+RemoveParts.TextStrokeColor3 = Color3.fromRGB(17, 17, 17)
 RemoveParts.MouseButton1Click:connect(function()
 	game.Players.LocalPlayer.Character.Tail1:Remove()
 game.Players.LocalPlayer.Character.Neck1:Remove()
@@ -12669,7 +12670,7 @@ UnderLight.TextSize = 15
 UnderLight.TextWrapped = true
 UnderLight.BackgroundTransparency = 0.95
 UnderLight.TextStrokeTransparency = 0.3
-UnderLight.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+UnderLight.TextStrokeColor3 = Color3.fromRGB(17, 17, 17)
 UnderLight.MouseButton1Click:connect(function()
 for i,v in pairs(game.Workspace.Packs:GetChildren()) do
 for x,z in pairs(game.Players:GetChildren()) do
@@ -12704,7 +12705,7 @@ Sparkles.TextSize = 15
 Sparkles.TextWrapped = true
 Sparkles.BackgroundTransparency = 0.95
 Sparkles.TextStrokeTransparency = 0.3
-Sparkles.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+Sparkles.TextStrokeColor3 = Color3.fromRGB(17, 17, 17)
 Sparkles.MouseButton1Click:connect(function()
 if game.Players.LocalPlayer.Character:FindFirstChild("HumanoidRootPart") then
 local s = Instance.new("PointLight", game.Players.LocalPlayer.Character:FindFirstChild("HumanoidRootPart"))
@@ -12778,7 +12779,7 @@ Fire.TextSize = 15
 Fire.TextWrapped = true
 Fire.BackgroundTransparency = 0.95
 Fire.TextStrokeTransparency = 0.3
-Fire.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+Fire.TextStrokeColor3 = Color3.fromRGB(17, 17, 17)
 Fire.MouseButton1Click:connect(function()
 game.Players.LocalPlayer.Character.CharacterScripts.InWater:Remove()
 end)
@@ -12801,7 +12802,7 @@ Headless.TextSize = 15
 Headless.TextWrapped = true
 Headless.BackgroundTransparency = 0.95
 Headless.TextStrokeTransparency = 0.3
-Headless.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+Headless.TextStrokeColor3 = Color3.fromRGB(17, 17, 17)
 Headless.MouseButton1Click:connect(function()
 if game.Players.LocalPlayer.Character:FindFirstChild("HumanoidRootPart") then
 for i, v in pairs(game.Players.LocalPlayer.Character:GetChildren()) do
@@ -12817,7 +12818,7 @@ end)
 FunFrame.Name = "FunFrame"
 FunFrame.Parent = Main
 FunFrame.Active = true
-FunFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+FunFrame.BackgroundColor3 = Color3.fromRGB(17, 17, 17)
 FunFrame.BorderColor3 = Color3.fromRGB(248, 248, 248)
 FunFrame.Transparency = 1
 FunFrame.Position = UDim2.new(0.279245257, 0, 0.175983444, 0)
@@ -12856,7 +12857,7 @@ Sit.TextSize = 15
 Sit.TextWrapped = true
 Sit.BackgroundTransparency = 0.95
 Sit.TextStrokeTransparency = 0.3
-Sit.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+Sit.TextStrokeColor3 = Color3.fromRGB(17, 17, 17)
 Sit.MouseButton1Click:connect(function()
 	local a = "Apatosaurus"
 local targ = "Apatosaurus"
@@ -12886,7 +12887,7 @@ EarRape.TextSize = 15
 EarRape.TextWrapped = true
 EarRape.BackgroundTransparency = 0.95
 EarRape.TextStrokeTransparency = 0.3
-EarRape.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+EarRape.TextStrokeColor3 = Color3.fromRGB(17, 17, 17)
 EarRape.MouseButton1Click:connect(function()
 	local a = "Glass Lusotitan"
 local targ = "Glass Lusotitan"
@@ -12916,7 +12917,7 @@ ChatTroll.TextSize = 15
 ChatTroll.TextWrapped = true
 ChatTroll.BackgroundTransparency = 0.95
 ChatTroll.TextStrokeTransparency = 0.3
-ChatTroll.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+ChatTroll.TextStrokeColor3 = Color3.fromRGB(17, 17, 17)
 ChatTroll.MouseButton1Click:connect(function()
 	local a = "Kaiju Giraffatitan"
 local targ = "Kaiju Giraffatitan"
@@ -12946,7 +12947,7 @@ FakeHealth.TextSize = 15
 FakeHealth.TextWrapped = true
 FakeHealth.BackgroundTransparency = 0.95
 FakeHealth.TextStrokeTransparency = 0.3
-FakeHealth.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+FakeHealth.TextStrokeColor3 = Color3.fromRGB(17, 17, 17)
 FakeHealth.MouseButton1Click:connect(function()
 	local a = "Glass Puertasaurus"
 local targ = "Glass Puertasaurus"
@@ -12976,7 +12977,7 @@ FakeArmor.TextSize = 15
 FakeArmor.TextWrapped = true
 FakeArmor.BackgroundTransparency = 0.95
 FakeArmor.TextStrokeTransparency = 0.3
-FakeArmor.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+FakeArmor.TextStrokeColor3 = Color3.fromRGB(17, 17, 17)
 FakeArmor.MouseButton1Click:connect(function()
 	local a = "Galactic Barosaurus"
 local targ = "Galactic Barosaurus"
@@ -13006,7 +13007,7 @@ FakeBleed.TextSize = 15
 FakeBleed.TextWrapped = true
 FakeBleed.BackgroundTransparency = 0.95
 FakeBleed.TextStrokeTransparency = 0.3
-FakeBleed.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+FakeBleed.TextStrokeColor3 = Color3.fromRGB(17, 17, 17)
 FakeBleed.MouseButton1Click:connect(function()
 	local a = "Glass Sauroposeidon"
 local targ = "Glass Sauroposeidon"
@@ -13048,7 +13049,7 @@ SetDays.TextSize = 15
 SetDays.TextWrapped = true
 SetDays.BackgroundTransparency = 0.95
 SetDays.TextStrokeTransparency = 0.3
-SetDays.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+SetDays.TextStrokeColor3 = Color3.fromRGB(17, 17, 17)
 SetDays.MouseButton1Click:connect(function()
 	local a = "Solar Bringer Megavore"
 local targ = "Solar Bringer Megavore"
@@ -13078,7 +13079,7 @@ AdminsaurButton.TextSize = 15
 AdminsaurButton.TextWrapped = true
 AdminsaurButton.BackgroundTransparency = 0.95
 AdminsaurButton.TextStrokeTransparency = 0.3
-AdminsaurButton.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+AdminsaurButton.TextStrokeColor3 = Color3.fromRGB(17, 17, 17)
 AdminsaurButton.MouseButton1Click:connect(function()
 	local a = "Jaws of the Jurrassic"
 local targ = "Jaws of the Jurrassic"
@@ -13108,7 +13109,7 @@ Suicide.TextSize = 15
 Suicide.TextWrapped = true
 Suicide.BackgroundTransparency = 0.95
 Suicide.TextStrokeTransparency = 0.3
-Suicide.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+Suicide.TextStrokeColor3 = Color3.fromRGB(17, 17, 17)
 Suicide.MouseButton1Click:connect(function()
 	local a = "Sea Master Mosasaurus"
 local targ = "Sea Master Mosasaurus"
@@ -13138,7 +13139,7 @@ DailyDNA.TextSize = 15
 DailyDNA.TextWrapped = true
 DailyDNA.BackgroundTransparency = 0.95
 DailyDNA.TextStrokeTransparency = 0.3
-DailyDNA.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+DailyDNA.TextStrokeColor3 = Color3.fromRGB(17, 17, 17)
 DailyDNA.MouseButton1Click:connect(function()
 	local a = "Leedsichthys"
 local targ = "Leedsichthys"
@@ -13168,7 +13169,7 @@ BuySkin.TextSize = 15
 BuySkin.TextWrapped = true
 BuySkin.BackgroundTransparency = 0.95
 BuySkin.TextStrokeTransparency = 0.3
-BuySkin.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+BuySkin.TextStrokeColor3 = Color3.fromRGB(17, 17, 17)
 BuySkin.MouseButton1Click:connect(function()
 	local a = "Withered Willow Futalognkosaurus"
 local targ = "Withered Willow Futalognkosaurus"
@@ -13198,7 +13199,7 @@ AlbinoTerror.TextSize = 15
 AlbinoTerror.TextWrapped = true
 AlbinoTerror.BackgroundTransparency = 0.95
 AlbinoTerror.TextStrokeTransparency = 0.3
-AlbinoTerror.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+AlbinoTerror.TextStrokeColor3 = Color3.fromRGB(17, 17, 17)
 AlbinoTerror.MouseButton1Click:connect(function()
 	local a = "Spinosaurus"
 local targ = "Spinosaurus"
@@ -13228,7 +13229,7 @@ HotheadMegavore.TextSize = 15
 HotheadMegavore.TextWrapped = true
 HotheadMegavore.BackgroundTransparency = 0.95
 HotheadMegavore.TextStrokeTransparency = 0.3
-HotheadMegavore.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+HotheadMegavore.TextStrokeColor3 = Color3.fromRGB(17, 17, 17)
 HotheadMegavore.MouseButton1Click:connect(function()
 	local a = "Violex Filius"
 local targ = "Violex Filius"
@@ -13258,7 +13259,7 @@ Shake.TextSize = 15
 Shake.TextWrapped = true
 Shake.BackgroundTransparency = 0.95
 Shake.TextStrokeTransparency = 0.3
-Shake.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+Shake.TextStrokeColor3 = Color3.fromRGB(17, 17, 17)
 Shake.MouseButton1Click:connect(function()
 	local a = "Fossil Thalassomedon"
 local targ = "Fossil Thalassomedon"
@@ -13288,7 +13289,7 @@ SwimAnimation.TextSize = 15
 SwimAnimation.TextWrapped = true
 SwimAnimation.BackgroundTransparency = 0.95
 SwimAnimation.TextStrokeTransparency = 0.3
-SwimAnimation.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+SwimAnimation.TextStrokeColor3 = Color3.fromRGB(17, 17, 17)
 SwimAnimation.MouseButton1Click:connect(function()
 	local a = "Leviathan Shastasaurus"
 local targ = "Leviathan Shastasaurus"
@@ -13318,7 +13319,7 @@ AntiAFK.TextSize = 15
 AntiAFK.TextWrapped = true
 AntiAFK.BackgroundTransparency = 0.95
 AntiAFK.TextStrokeTransparency = 0.3
-AntiAFK.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+AntiAFK.TextStrokeColor3 = Color3.fromRGB(17, 17, 17)
 AntiAFK.MouseButton1Click:connect(function()
 	local a = "Galactic Terror"
 local targ = "Galactic Terror"
@@ -13348,7 +13349,7 @@ AntiBan.TextSize = 15
 AntiBan.TextWrapped = true
 AntiBan.BackgroundTransparency = 0.95
 AntiBan.TextStrokeTransparency = 0.3
-AntiBan.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+AntiBan.TextStrokeColor3 = Color3.fromRGB(17, 17, 17)
 AntiBan.MouseButton1Click:connect(function()
 	local a = "Avinychus"
 local targ = "Avinychus"
@@ -13470,7 +13471,7 @@ end)
 DNAFarmFrame.Name = "DNAFarmFrame"
 DNAFarmFrame.Parent = Main
 DNAFarmFrame.Active = true
-DNAFarmFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+DNAFarmFrame.BackgroundColor3 = Color3.fromRGB(17, 17, 17)
 DNAFarmFrame.BorderColor3 = Color3.fromRGB(248, 248, 248)
 DNAFarmFrame.Transparency = 1
 DNAFarmFrame.Position = UDim2.new(0.279245257, 0, 0.175983444, 0)
@@ -13509,7 +13510,7 @@ StopDNALoop.TextSize = 15
 StopDNALoop.TextWrapped = true
 StopDNALoop.BackgroundTransparency = 0.95
 StopDNALoop.TextStrokeTransparency = 0.3
-StopDNALoop.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+StopDNALoop.TextStrokeColor3 = Color3.fromRGB(17, 17, 17)
 StopDNALoop.MouseButton1Click:connect(function()
     _G.DNAFarmActive = false
     game.StarterGui:SetCore("SendNotification", {
@@ -13536,7 +13537,7 @@ StartDNALoop.TextSize = 15
 StartDNALoop.TextWrapped = true
 StartDNALoop.BackgroundTransparency = 0.95
 StartDNALoop.TextStrokeTransparency = 0.3
-StartDNALoop.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+StartDNALoop.TextStrokeColor3 = Color3.fromRGB(17, 17, 17)
 StartDNALoop.MouseButton1Click:connect(function()
 --[[ if not game.Players.LocalPlayer.Character then
 workspace.GameEvents.StartPlayer:FireServer()
