@@ -23,6 +23,7 @@ print("Anti-AFK Ran")
 end
 
 -- Create a heading
+local baulk = Instance.new("ScreenGui")
 local heading = Instance.new("TextLabel")
 heading.Parent = Category
 heading.Text = "Heading"
