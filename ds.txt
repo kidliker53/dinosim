@@ -1,3 +1,27 @@
+local p = game.Players.LocalPlayer
+local whitelist = {
+   [p.Name] = true
+}
+
+if whitelist[p.Name] then
+	game.StarterGui:SetCore("SendNotification", {
+Title = "it works nigga";
+Text = "By niggerpenis34";
+Duration = 15;
+})
+local vu = game:GetService("VirtualUser")
+game:GetService("Players").LocalPlayer.Idled:connect(function()
+   vu:Button2Down(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
+   wait(1)
+   vu:Button2Up(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
+end)
+game.StarterGui:SetCore("SendNotification", {
+Title = "Notice";
+Text = "Anti-Afk Ran"; 
+Duration = 10; })
+print("Anti-AFK Ran")
+end
+
 -- Create a heading
 local heading = Instance.new("TextLabel")
 heading.Parent = Category
